@@ -27,11 +27,3 @@ powershell -Command "Set-ExecutionPolicy Restricted -Force"
 
 8. Aktifkan Audit Logging:
 auditpol /set /category:* /success:enable /failure:enable
-
-=========================
-STOP HARDENING WINDOWS 11
-=========================
-
-netsh advfirewall set allprofiles state off:
-powershell -Command "Set-MpPreference -DisableRealtimeMonitoring $true"
-powershell -Command "Set-ExecutionPolicy Unrestricted -Force"
