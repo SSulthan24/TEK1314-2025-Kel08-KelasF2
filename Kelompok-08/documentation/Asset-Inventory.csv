@@ -1,0 +1,4 @@
+﻿No,Hostname,IP Address,OS / Platform,Peran,Tim / PIC,Status,Keterangan
+1,kali-attacker,192.168.8.100,Kali Linux,Attacker / C2 Listener,Red Team,Aktif,Digunakan untuk simulasi Reverse TCP yang terotorisasi pada port TCP 4444.
+2,win-target,192.168.8.8,Windows 11,Target Endpoint / User PC,Blue Team,Aktif,Endpoint yang diuji pada fase baseline dan hardening Windows Firewall.
+3,sec-onion,192.168.8.10,Security Onion (Sguil),"Monitoring, Detection, and Analysis",Analyst Team,Aktif,Memantau trafik dan alert Reverse TCP dari 192.168.8.8 menuju 192.168.8.100:4444.

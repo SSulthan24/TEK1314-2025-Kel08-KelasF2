@@ -1,0 +1,11 @@
+Project        : Endpoint Watchdog (Win)
+Group          : Kelompok 8
+Network        : 192.168.8.0/24
+Scenario       : Malware & Reverse Shell Simulation
+Red Team       : Zulvian Hardhan
+Analyst        : Rhaqim Putra Alrusdi
+Blue Team      : Muhammad Sulthan Alfriansyah
+Attacker       : kali-attacker - 192.168.8.100
+Target         : win-target - 192.168.8.8
+Monitoring     : sec-onion - 192.168.8.10
+Port Tested    : TCP 4444
